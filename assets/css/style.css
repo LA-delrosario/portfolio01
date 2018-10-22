@@ -1,0 +1,312 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.header{
+	width:100%;
+	height: 100vh;
+  	background-color: #FC3A00;
+  	background-image: url(../images/bg11.jpg);
+  	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+ 	text-align: center;
+}
+
+.navbar{
+	float: right;
+}
+
+.header-content{
+	text-align: center;
+}
+
+.header-logo{
+	width: 200px;
+	margin-top: 30%;
+}
+
+.sub{
+	font-family: 'Cormorant Garamond', serif;
+}
+
+.menu-logo{
+	width: 100px;
+	padding: 10px;
+}
+
+.about-me{
+	width: 100%;
+	height: 100vh;
+	background-color:#DED5D0;
+}
+ 
+.about-menu{
+	padding: 10px;
+	float: right;
+}	
+
+.break{
+	height: 15vh;
+	/*display: */
+}
+.mini-break{
+	height: 5vh;
+	/*display: */
+}
+
+.about-text{
+	font-size: 70px;
+	font-family: 'Cormorant Garamond', serif;
+	color: white;
+}
+
+.about-button{
+	background-color: #DED5D0;
+	border:	3px solid white;
+	padding: 5px;
+	color: white;
+}
+
+.full-stack{
+	color:#FF3803;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+.portfolio-header{
+	color: white;
+	background-color: black;
+	padding: 5px;
+	text-align: center; 
+	height: 40px;
+}
+
+.portfolio-section{
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF;
+}
+
+.orange{
+	color:#FF3803;
+	
+}
+
+.project-name{
+	font-family: 'Cormorant Garamond', serif;
+	color:#FF3803;
+}
+
+.guide{
+	border: 1px solid black;
+	background-color: yellow;
+	opacity: 0.5;
+}
+
+.portfolio-main-img{
+	/*width: 500px;*/
+}
+
+.black-line{
+	width: 100px;
+	height: 3px;
+	background-color: black;
+}
+
+.horizontal{
+	width: 80px;
+}
+
+.portfolio-2{
+	width: 100%;
+	height: 100%;
+	background-color:#DED5D0;
+	/*border-top: 5px solid #FF3803;*/
+}
+
+.project-img{
+	text-align: justify;
+	text-align-last: center;
+
+}
+
+.view-portfolio{
+	width: 200px;
+	text-align: center;
+	color: white;
+	background-color: black;
+	margin: 0 auto;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.view-holder{
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.background{
+	width: 100%;
+	height: 100%;
+	background-color:#DDD6D0;
+}
+
+.button-holder{
+	width: 100%;
+	text-align: center;
+}
+
+.educ, .work{
+	color: white;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+.contact-me{
+	text-align:center;
+}
+footer{
+	width: 100%;
+	text-align: center;
+	background-color: #FF3803;
+}
+
+.socials{
+	width: 20px;
+	margin: 10px;
+	float-right;
+}
+
+.social-media{
+	float: right;
+}
+
+.btn-orange{
+	background-color: #FF3803;
+	color: white;
+	margin-bottom: 20px;
+	border: 2px solid white;
+	text-decoration: none;
+}
+
+.header-content > p{
+	text-align: justify;
+	text-align-last: center;
+}
+
+.contact-me h5{
+	text-align: justify;
+	text-align-last: center;
+}
+h3{
+	font-weight: bold;
+}
+
+
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  .break{
+  	height: 5vh;
+  }
+
+  .mini-break{
+  	height: 2vh;
+  }
+
+  .portfolio-main-img{
+	width: 200px;
+	text-align: center;
+	margin:	0 auto;
+	}
+
+	.header-logo{
+	width: 100px;
+	margin-top: 10%;
+	}
+
+	.menu-logo{
+		width: 75px;
+	}
+
+	.about-text{
+		font-size: 30px;
+	}
+
+	.portfolio-main-photo{
+		text-align: center;
+	}
+
+	.project-img{
+		width: 30px;
+	}
+
+	.main-project h6{
+		text-align: justify;
+		text-align-last: center
+	}
+
+	.contact-me h3{
+		font-size: 20px;
+	}
+
+	.contact-me h5{
+		font-size: 15px;
+	}
+
+	.educ h3{
+		font-size: 20px;
+	}
+
+	.educ h5{
+		font-size: 15px;
+	}
+
+	.work h3{
+		font-size: 20px;
+	}
+
+	.work h5{
+		font-size: 15px;
+	}
+ }
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .break{
+  	height: 7vh;
+  }
+
+  .mini-break{
+  	height: 4vh;
+  }
+
+  .portfolio-main-img{
+	width: 300px;
+	text-align: center
+	margin:	0 auto;
+	}
+
+.project-img{
+	width: 70px;
+}
+.main-project{
+	text-align: center;
+}
+.portfolio-main-photo{
+	text-align: center;
+}
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  
+  
+ }
