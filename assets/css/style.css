@@ -21,11 +21,12 @@
 
 .header-content{
 	text-align: center;
+	margin-top: 5%;
 }
 
 .header-logo{
 	width: 200px;
-	margin-top: 30%;
+	
 }
 
 .sub{
@@ -61,10 +62,11 @@
 	font-size: 70px;
 	font-family: 'Cormorant Garamond', serif;
 	color: white;
+	margin-top: 1%;
 }
 
 .about-button{
-	background-color: #DED5D0;
+	background-color: black;
 	border:	3px solid white;
 	padding: 5px;
 	color: white;
@@ -166,6 +168,7 @@
 
 a{
 	text-decoration: none;
+	color: white;
 }
 
 .contact-me{
@@ -208,8 +211,65 @@ h3{
 	font-weight: bold;
 }
 
+.bg-orange{
+	background-color: #ff4b1c;
+}
+
+.black{
+	color: black;
+}
+
+.orange{
+	color: #FF3803;
+}
+.square-size{
+	width: 300px;
+	height: 300px;
+}
+
+.about-text{
+		margin-top: 5%;
+	}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: rgba(100, 22, 1, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(100, 22, 1, 0.6);
+  outline: 0 none;
+}
 
 
+/*start of about-me.html*/
+.skill{
+	width: 100%;
+}
+
+.bg-success{
+	background-color: #004e4e  !important;
+}
+
+/*end of about-me.html*/
+
+/*start of gallery.html*/
+.gallery-section{
+	background-color: #DED5D0;
+}
+
+/*end of gallery.html*/
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
@@ -235,17 +295,23 @@ h3{
 	.menu-logo{
 		width: 75px;
 	}
+	.header-content{
+		margin-top: 1%;
+	}
 
+	.header-content p{
+		font-size: 12px;
+	}
 	.about-text{
-		font-size: 30px;
+		font-size: 50px;
 	}
 
 	.portfolio-main-photo{
 		text-align: center;
 	}
 
-	.project-img{
-		width: 30px;
+	.view{
+		float: right
 	}
 
 	.main-project h6{
@@ -276,33 +342,42 @@ h3{
 	.work h5{
 		font-size: 15px;
 	}
+
+	.square-size{
+		width: 200px;
+		height: 200px;
+	}
+
+	.view-sm{
+		float: left;
+	}
  }
 
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
-  .break{
-  	height: 7vh;
-  }
-
-  .mini-break{
-  	height: 4vh;
-  }
-
-  .portfolio-main-img{
-	width: 300px;
-	text-align: center
-	margin:	0 auto;
+	.break{
+  		height: 7vh;
 	}
 
-.project-img{
-	width: 70px;
-}
-.main-project{
-	text-align: center;
-}
-.portfolio-main-photo{
-	text-align: center;
-}
+	.mini-break{
+  		height: 4vh;
+	}
+
+	.main-project{
+		text-align: center;
+	}
+
+	.portfolio-main-photo{
+		text-align: center;
+	}
+
+	.about-text{
+		margin-top: 20%;
+	}
+
+	.header-content{
+		margin-top: 20%;
+	}
 }
 
 /* Desktop Styles */
